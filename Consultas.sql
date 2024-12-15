@@ -77,7 +77,7 @@ FROM
 JOIN 
     Motorista M ON F.CNH = M.CNH
 WHERE 
-    F.Zona = '89hlb706'  
+    F.Zona = 'Azevedo de Rocha'  
 GROUP BY 
     M.Nome
 ORDER BY 
